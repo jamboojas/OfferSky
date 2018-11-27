@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/title_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:padding="8dp"
+        android:text="Verify OTP"
+        style="@style/TextAppearance.AppCompat.Headline"/>
+
+    <EditText
+        android:id="@+id/otp_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_below="@+id/title_tv"
+        android:hint="OTP"/>
+
+    <TextView
+        android:id="@+id/otp_countdown_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:layout_below="@id/otp_et"
+        android:layout_marginBottom="24dp"
+        android:text="Send otp again in  -  seconds"/>
+
+    <Button
+        android:id="@+id/verify_otp_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:text="Verify"
+        android:textColor="@android:color/holo_red_dark"
+        style = "?attr/borderlessButtonStyle"
+        android:layout_below="@+id/otp_countdown_tv"
+        android:layout_alignParentEnd="true"/>
+
+    <Button
+        android:id="@+id/cancel_otp_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:text="Cancel"
+        android:textColor="@android:color/holo_red_dark"
+        style = "?attr/borderlessButtonStyle"
+        android:layout_below="@+id/otp_countdown_tv"
+        android:layout_alignParentStart="true"/>
+
+    <Button
+        android:id="@+id/resend_otp_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:text="Resend"
+        android:textColor="@android:color/holo_red_dark"
+        style = "?attr/borderlessButtonStyle"
+        android:layout_below="@+id/otp_countdown_tv"
+        android:layout_toRightOf="@+id/cancel_otp_btn"/>
+
+
+
+
+</RelativeLayout>

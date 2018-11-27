@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">OfferSkyDebug</string>
+    <string name="sendotp_key">138046AvQLZw7B588243c3</string>
+
+    <string name="india_country_code">91</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="action_events">Events</string>
+
+    <string name="shopping_tab_1">Fashion</string>
+    <string name="shopping_tab_2">Lifestyle</string>
+    <string name="shopping_tab_3">Accessories</string>
+    <string name="shopping_tab_4">Entertainment</string>
+
+    <string name="food_tab_1">Cafe</string>
+    <string name="food_tab_2">Starters</string>
+    <string name="food_tab_3">Meals</string>
+    <string name="food_tab_4">Desserts</string>
+
+    <string name="action_search">Search</string>
+    <string name="title_activity_shop_details">ShopDetailsActivity</string>
+
+    <string name="no_events">No events!!</string>
+    <string name= "check_internet">Check internet connection</string>
+
+    <string name="internet_not_available">Connect to the internet</string>
+    <string name="GPS_required_message">We require GPS to ensure best shopping experience for you. Please turn it on.</string>
+    <string name="GPS_required_title">Attention</string>
+
+    <string name="Invalid_mall_title">Invalid mall</string>
+    <string name="select_diff_mall_message">Please select the mall you are currently in.</string>
+
+    <string name="checking_mall">Verifying presence in mall.</string>
+
+
+    <array name="fashion">
+        <item>Formals</item>
+        <item>Ethnic</item>
+        <item>Casuals</item>
+    </array>
+
+    <array name="lifestyle">
+        <item>Footwear</item>
+        <item>Sports</item>
+        <item>Handbags</item>
+    </array>
+
+    <array name="accessories">
+        <item>Bags</item>
+        <item>Electronics</item>
+        <item>Jewellery</item>
+        <item>Watches</item>
+        <item>Gifts and Toys</item>
+        <item>Books and Music</item>
+    </array>
+
+    <array name="beauty_entertainment">
+        <item>Spa</item>
+        <item>Salon</item>
+        <item>Movies</item>
+        <item>Games</item>
+    </array>
+
+    <array name="food">
+        <item>Cafe</item>
+        <item>Starters</item>
+        <item>Meals</item>
+        <item>Dessert</item>
+        <item>Drinks</item>
+    </array>
+
+    <array name="dessert">
+        <item>Ice cream</item>
+        <item>Drinks</item>
+        <item>Dessert</item>
+    </array>
+
+    <array name="meals">
+        <item>Meals</item>
+        <item>South Indian</item>
+        <item>Chinese</item>
+    </array>
+</resources>

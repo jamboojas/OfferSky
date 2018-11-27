@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/coupon_iv"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"/>
+        <TextView
+            android:id="@+id/brand_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            style="@android:style/TextAppearance.DeviceDefault.DialogWindowTitle"
+            android:text="Brand Name goes here"/>
+    </FrameLayout>
+    <TextView
+        android:id="@+id/description_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:layout_marginTop="8dp"
+        android:text="Here goes the coupon description"/>
+    <TextView
+        android:id="@+id/terms_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:text="Terms and conditions go here"/>
+    <Button
+        android:id="@+id/coupon_code_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@android:style/TextAppearance.DeviceDefault.Medium"
+        android:text="Get code"/>
+    <TextView
+        android:id="@+id/expiration_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="expiration time goes here"/>
+</LinearLayout>

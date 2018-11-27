@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/badge_icon_button"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_menu_camera"/>
+
+    <TextView
+        android:id="@+id/badge_textView"
+        android:layout_width="14dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/badge_icon_button"
+        android:layout_alignLeft="@id/badge_icon_button"
+        android:layout_alignStart="@id/badge_icon_button"
+        android:text="10"
+        android:paddingEnd="4dp"
+        android:paddingRight="4dp"
+        android:paddingLeft="6dp"
+        android:gravity="center"
+        android:textColor="#FFF"
+        android:textSize="8sp"
+        android:background="@drawable/badge_circle"/>
+</RelativeLayout>
